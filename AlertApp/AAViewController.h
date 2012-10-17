@@ -11,5 +11,6 @@
 @interface AAViewController : UIViewController <UIAlertViewDelegate>
 
 - (IBAction)buttonPressed:(id)sender;
+- (IBAction)buttonWasPressed:(id)sender;
 
 @end
