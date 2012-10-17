@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AAViewController : UIViewController
+@interface AAViewController : UIViewController <UIAlertViewDelegate>
+
+- (IBAction)buttonPressed:(id)sender;
 
 @end
